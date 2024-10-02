@@ -13,3 +13,77 @@ img,
 video {
   display: block;
 }
+body {
+  background-color: rgba(247, 247, 247, 1);
+}
+h1.titre {
+  text-align: center;
+  font-size: 60px;
+  font-family: DM Serif Display;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.article1 {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  background: #ffffff;
+  font-family: "Heebo-Medium", sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+
+  .title {
+    font-family: "DmSerifDisplay-Regular", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .gras {
+    color: #b3b3b3;
+  }
+  .auteur-date {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+.reviews-header {
+  background: #eee;
+  font-family: Heebo;
+  font-size: 12px;
+  padding: 0px 20px;
+  line-height: 50px; /* 416.667% */
+}
+
+.article2 {
+  margin-bottom: 20px;
+  background: #ffffff;
+  font-family: "Heebo-Medium", sans-serif;
+  padding: 20px;
+  .titre {
+    font-family: "DM Serif Display";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 118.182% */
+  }
+  .sous-titre {
+    font-style: italic;
+  }
+  .auteur {
+    font-family: Heebo;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px; /* 200% */
+    margin: 20px 0;
+  }
+  .texte {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
